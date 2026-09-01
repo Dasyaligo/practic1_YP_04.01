@@ -82,6 +82,7 @@ class _ConverterScreenState extends State<ConverterScreen> {
                 mainAxisSize: MainAxisSize.min,
                 children: [
                   DropdownButtonFormField<String>(
+                    // ignore: deprecated_member_use
                     value: _fromCurrency,
                     decoration: const InputDecoration(
                       labelText: 'Из валюты',
@@ -97,6 +98,7 @@ class _ConverterScreenState extends State<ConverterScreen> {
                   ),
                   const SizedBox(height: 16),
                   DropdownButtonFormField<String>(
+                    // ignore: deprecated_member_use
                     value: _toCurrency,
                     decoration: const InputDecoration(
                       labelText: 'В валюту',

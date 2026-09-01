@@ -71,6 +71,7 @@ class _CalculatorScreenState extends State<CalculatorScreen> {
                   ),
                   const SizedBox(height: 16),
                   DropdownButtonFormField<String>(
+                    // ignore: deprecated_member_use
                     value: _operation,
                     decoration: const InputDecoration(
                       labelText: 'Операция',
